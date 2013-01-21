@@ -50,5 +50,7 @@ module SampleApp
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    
+    config.active_record.mass_assignment_sanitizer = :strict
   end
 end
